@@ -11,20 +11,65 @@
       "static/chunks/main-app.js",
       "static/chunks/app/loading.js"
     ],
-    "/(root)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/layout.js"
-    ],
-    "/(root)/(routes)/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/(routes)/page.js"
-    ],
     "/(dashboard)/[storeId]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/[storeId]/layout.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/categories/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/categories/page.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/categories/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/categories/loading.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/sizes/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/sizes/page.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/sizes/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/sizes/loading.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/billboards/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/billboards/page.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/billboards/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/billboards/loading.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/page.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/colors/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/colors/page.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/colors/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/colors/loading.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/settings/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/settings/page.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/settings/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/settings/loading.js"
     ],
     "/(dashboard)/[storeId]/(routes)/orders/page": [
       "static/chunks/webpack.js",
@@ -36,10 +81,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/[storeId]/(routes)/orders/loading.js"
     ],
-    "/(dashboard)/[storeId]/(routes)/page": [
+    "/(root)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/[storeId]/(routes)/page.js"
+      "static/chunks/app/(root)/layout.js"
+    ],
+    "/(root)/(routes)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/(routes)/page.js"
+    ],
+    "/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/[storeId]/(routes)/billboards/[billboardId]/page.js"
     ]
   }
 }
