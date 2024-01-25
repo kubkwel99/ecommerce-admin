@@ -1,0 +1,5 @@
+{
+  "/(root)/(routes)/page": "app/(root)/(routes)/page.js",
+  "/(dashboard)/[storeId]/(routes)/page": "app/(dashboard)/[storeId]/(routes)/page.js",
+  "/(dashboard)/[storeId]/(routes)/orders/page": "app/(dashboard)/[storeId]/(routes)/orders/page.js"
+}
